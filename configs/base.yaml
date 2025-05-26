@@ -1,0 +1,25 @@
+data:
+  train_path: "./data/train.npz"
+  val_path: "./data/val.npz"
+  max_tk_entries: 1000000
+
+model:
+  seq_len: 128
+  n_channels: 10
+  tk_dim: 512
+  num_retrievals: 5
+  temperature: 0.1
+  aging_threshold: 90
+
+training:
+  device: "cuda"
+  batch_size: 64
+  epochs: 100
+  lr: 1e-4
+  weight_decay: 1e-5
+  grad_clip: 1.0
+  lambda: 0.5
+  seed: 42
+
+logging:
+  log_dir: "./experiments/base_run"

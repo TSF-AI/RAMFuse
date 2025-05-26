@@ -1,6 +1,6 @@
 # RAMFuse: A Retrieval-Augmented Multimodal Fusion Framework for Time Series Forecasting
 
-The code is build on the base of Time-Series-Library.
+The code is build on the base of [Time-Series-Library](https://github.com/thuml/Time-Series-Library).
 
 # Required Packages
 - python == 3.9.13

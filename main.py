@@ -9,6 +9,7 @@ from core.trainer import RAMFuseTrainer
 from utils.logger import ExperimentLogger
 
 
+
 def load_config(config_path: str) -> dict:
     """Load and validate configuration parameters"""
     with open(config_path) as f:
